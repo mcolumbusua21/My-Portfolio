@@ -28,14 +28,14 @@ h1{
 }
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: gray;
+    color: black;
     font-size: 32px;
 
 }
 
 .content {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 40px;
+    
 }
 
 .name-container {
@@ -54,7 +54,7 @@ button{
     display: flex;
     justify-content: space-evenly;
     color: black;
-    height: 100px;
+    height: auto;
     align-items: center; 
     margin-right: 50px;
 }
@@ -70,16 +70,20 @@ button{
 .row{
     display: flex;
     justify-content: space-between;
+    margin-bottom: -20px;
     
 }
 
 p{
     width: 50ch;
 
+
 }
 
 img{
-    max-width: 150px;
+    max-width: 200px;
+    margin: 20px;
+    border-radius: 100%;
 }
 
 footer{
@@ -99,6 +103,27 @@ a, a:visited{
 @media screen and (max-width: 996px){
     footer, header{
         flex-direction: column;
+        min-height: max-content;
+        padding: 25px;
+    }
+    .name-container{
+        align-items: center;
+    }
+
+    .references{
+        margin-left: 50px;
     }
 }
 
+@media screen and (max-width: 662px){
+    footer, header{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 335px){
+    footer, header{
+        flex-direction: column;
+        
+        
+    }
+}
