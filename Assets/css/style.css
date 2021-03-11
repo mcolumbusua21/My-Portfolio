@@ -6,12 +6,38 @@ body{
     flex-direction: column;
     margin: 0;
     background-image: url("https://images.freeimages.com/images/large-previews/4a1/on-the-road-5-1384802.jpg");
+    background-position: center center;
+    background-size: cover;
     z-index: -1;
+} 
+.pic {
+    border-radius: 50px;
+    height: 150px;
+    width: 250px;
+    display: flex;  
+    justify-content: flex-end;
+    margin-right: 300px;
+    margin-top: 100px;
+    /* border-radius: 50px; */
+
 }
-#road {
-    width: 100%;
-    height: auto;
+.word {
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+} 
+
+.code {
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
 }
+ /* .planner {
+     font-size: 24px;
+     display: flex;
+     justify-content: flex-end;
+ } */
 
 
 header{
@@ -25,65 +51,69 @@ header{
 h1{
     font-family: fantasy;
     font-size: 32px;
-}
-h2{
+    
+} 
+ h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     font-size: 32px;
 
-}
+} 
 
-.content {
+/* .content {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
-}
+} */
 
-.name-container {
+ .name-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 5px;
-}
+    /* border-radius: 50%; */
+} 
 
 button{
-    border-radius: 20%;
+    border-radius: 50%;
 
 }
 
 .references {
     display: flex;
     justify-content: space-evenly;
-    color: black;
+    color: white;
     height: auto;
     align-items: center; 
     margin-right: 50px;
-}
+    border-radius: 10px;
+} 
 
 .link {
-    width: 200px;
+    width: 100px;
     height: 50px;
     margin-top: 50px;
     background-color: teal;
     color: black;
-}
+} 
 
-.row{
+/* .row{
     display: flex;
     justify-content: space-between;
     margin-bottom: -20px;
+    color: black;
     
-}
+} */ */
 
-p{
+/* p{
     width: 50ch;
 
 
-}
+} */
 
 img{
     max-width: 200px;
     margin: 20px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 footer{
@@ -93,17 +123,19 @@ footer{
     font-family: sans-serif;
     font-size: 16px;
     color: white;
-}
+} */
 
 a, a:visited{
-    color: white;
+    color: black;
     text-decoration: none;
-}
+    
+} */   
 
 @media screen and (max-width: 996px){
     footer, header{
         flex-direction: column;
-        min-height: max-content;
+        min-height: auto;
+        max-content;
         padding: 25px;
     }
     .name-container{
@@ -112,6 +144,7 @@ a, a:visited{
 
     .references{
         margin-left: 50px;
+    
     }
 }
 
