@@ -1,8 +1,7 @@
 # 02 Advanced CSS: Portfolio
 
 ## My Portfolio
-
-This is my portfolio as it stands now. We will be getting into projects and more homework soon. This is the first website that I've ever created.
+Updated version of my first portfolio. I added my LinkedIn page, 2 projects and my resume.
 
 
 
@@ -16,4 +15,7 @@ This is my portfolio as it stands now. We will be getting into projects and more
 
  ## GitHub
 
- https://github.com/mcolumbusua21/My-Portfolio.git
+https://mcolumbusua21.github.io/My-Portfolio/
+
+
+## Images
